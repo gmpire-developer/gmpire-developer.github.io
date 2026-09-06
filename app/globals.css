@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  @apply bg-maple-cream text-maple-charcoal antialiased dark:bg-[#121614] dark:text-[#f3eee2];
+}
+
+main {
+  @apply mx-auto w-full max-w-7xl px-4 pb-20 pt-6 sm:px-6 lg:px-10;
+}
